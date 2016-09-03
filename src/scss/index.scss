@@ -1,0 +1,39 @@
+@import "./variables";
+@import "./normalize";
+@import "./iconfont";
+html{
+    font-family: $fontFamily;
+}
+
+body, input, textarea, select, button {
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: 'liga', 'kern';
+}
+
+body{
+    font-size: $fontSize;
+    line-height: $lineHeight;
+    background-color: $backgroundColor;
+    color: $bodyColor;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+a{
+    color: $linkColor;
+    text-decoration: none;
+    transition: $linkTransition;
+    &:hover{
+        color: $linkColorHover;
+    }
+}
+
+div{
+    font-size: 20px;
+}

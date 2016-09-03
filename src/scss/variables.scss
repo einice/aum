@@ -1,0 +1,13 @@
+
+$fontFamily: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica','Hiragino Sans GB','Microsoft YaHei','微软雅黑', 'STHeitiSC-Light', 'Arial', sans-serif;
+
+// body
+$fontSize: 16px;
+$lineHeight: 1.5;
+$bodyColor: #222;
+$backgroundColor: #fff;
+
+// a link
+$linkColor: #2db7f5;
+$linkColorHover: lighten($linkColor, 15%);
+$linkTransition: color .3s ease;

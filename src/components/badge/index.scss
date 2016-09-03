@@ -1,0 +1,38 @@
+.badge{
+        position: relative;
+        display: inline-block;
+        line-height: 1;
+        vertical-align: middle;
+        &-count{
+            position: absolute;
+            transform: translateX(-50%);
+            top: -10px;
+            height: 20px;
+            border-radius: 10px;
+            min-width: 20px;
+            background: #f50;
+            border: 1px solid transparent;
+            color: #fff;
+            line-height: 18px;
+            text-align: center;
+            padding: 0 3px;
+            font-size: 12px;
+            white-space: nowrap;
+            transform-origin: -10% center;
+            z-index: 10;
+            font-family: tahoma;
+            box-shadow: 0 0 0 1px #fff;
+        }
+        &-dot {
+            position: absolute;
+            transform: translateX(-50%);
+            transform-origin: 0 center;
+            top: -3px;
+            height: 8px;
+            width: 8px;
+            border-radius: 100%;
+            background: #f50;
+            z-index: 9;
+            box-shadow: 0 0 0 1px #fff;
+        }
+    }
